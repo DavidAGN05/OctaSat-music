@@ -45,6 +45,7 @@ if __name__ == "__main__":
 
     try:
         # Play the songs in sequence
+        player.play_song('sonic')
         player.play_song('lalaland')
         player.play_song('cuphead')
         player.play_song('pacman')
