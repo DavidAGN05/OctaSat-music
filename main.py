@@ -46,14 +46,14 @@ if __name__ == "__main__":
     try:
         # Play the songs in sequence
         player.play_song('mario')
-        player.play_song('fur_elise')
-        player.play_song('minecraft')
-        player.play_song('megalovania')
         player.play_song('hotcrossbuns')  # Play the Tetris theme song
         player.play_song('tetris')  # Play the Tetris theme song
         player.play_song('scale')   # Play a simple scale
         player.play_song('simple_song')  # Play another sample song
         player.play_song('twinkle')  # Play the new Twinkle song
+        player.play_song('fur_elise')
+        player.play_song('minecraft')
+        player.play_song('megalovania')
 
     except KeyboardInterrupt:
         print("[!] Interrupted. Cleaning up...")
